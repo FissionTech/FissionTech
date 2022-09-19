@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="512"
+   viewBox="0 0 1024 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3-dev (b934569c, 2022-09-11)"
+   sodipodi:docname="MJLLogoWIP.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.81542968"
+     inkscape:cx="239.13773"
+     inkscape:cy="166.78324"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:416.194px;fill:#434be7;fill-opacity:1;stroke-width:34.6828;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="137.6337"
+       y="387.44501"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="137.6337"
+         y="387.44501"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:416.194px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:34.6828;fill:#434be7;fill-opacity:1">MJL</tspan></text>
+    <g
+       id="g6"
+       style="fill:#434be7;fill-opacity:1">
+      <g
+         id="g1"
+         style="fill:#434be7;fill-opacity:1">
+        <rect
+           style="fill:#434be7;fill-opacity:1;stroke-width:1;stroke-dasharray:none;paint-order:stroke markers fill"
+           id="rect5"
+           width="233.00598"
+           height="46.601196"
+           x="-512"
+           y="977.3988"
+           ry="0"
+           transform="rotate(-90)"
+           rx="0" />
+      </g>
+      <g
+         id="g5"
+         transform="matrix(0,1,-1.3848812,0,1410.3736,-512)"
+         style="fill:#434be7;fill-opacity:1">
+        <rect
+           style="fill:#434be7;fill-opacity:1;stroke-width:1;stroke-dasharray:none;paint-order:stroke markers fill"
+           id="rect4"
+           width="233.00598"
+           height="46.601196"
+           x="-512"
+           y="977.3988"
+           ry="0"
+           transform="rotate(-90)"
+           rx="0" />
+      </g>
+    </g>
+    <g
+       id="g9"
+       transform="rotate(180,512.00001,256)"
+       style="fill:#434be7;fill-opacity:1">
+      <g
+         id="g7"
+         style="fill:#434be7;fill-opacity:1">
+        <rect
+           style="fill:#434be7;fill-opacity:1;stroke-width:1;stroke-dasharray:none;paint-order:stroke markers fill"
+           id="rect6"
+           width="233.00598"
+           height="46.601196"
+           x="-512"
+           y="977.3988"
+           ry="0"
+           transform="rotate(-90)"
+           rx="0" />
+      </g>
+      <g
+         id="g8"
+         transform="matrix(0,1,-1.3848812,0,1410.3736,-512)"
+         style="fill:#434be7;fill-opacity:1">
+        <rect
+           style="fill:#434be7;fill-opacity:1;stroke-width:1;stroke-dasharray:none;paint-order:stroke markers fill"
+           id="rect7"
+           width="233.00598"
+           height="46.601196"
+           x="-512"
+           y="977.3988"
+           ry="0"
+           transform="rotate(-90)"
+           rx="0" />
+      </g>
+    </g>
+  </g>
+</svg>
