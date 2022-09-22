@@ -1,5 +1,6 @@
 <script lang="ts">
 	import BlogPost from '$lib/BlogPost.svelte';
+	import BioPicAndBlurb from '$lib/BioPicAndBlurb/BioPicAndBlurb.svelte';
 	import type PageData from '$types';
 
 	export let data: PageData;
@@ -12,8 +13,10 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+<BioPicAndBlurb />
+
 <section>
-	{#each posts as post (post.id)}
+	<!-- {#each posts as post (post.id)}
 		<BlogPost
 			isPreview={true}
 			title={post.attributes.Title}
@@ -23,7 +26,7 @@
 			cover=""
 			shortDescription={post.attributes.ShortDescription}
 		/>
-	{/each}
+	{/each} -->
 </section>
 
 <style>
