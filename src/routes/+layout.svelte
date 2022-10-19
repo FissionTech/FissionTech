@@ -1,48 +1,47 @@
-<script>
-	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
+<script lang="ts">
+    
+	import "carbon-components-svelte/css/g90.css";
+	import {page} from '$app/stores';
+
+	import {
+		Button,
+		Grid,
+		Row,
+		Column,
+		TextArea,
+		Header,
+		HeaderNav,
+		HeaderNavItem,
+		HeaderNavMenu,
+		SideNav,
+		SideNavItems,
+		SideNavMenu,
+		SideNavMenuItem,
+		SideNavLink,
+		SideNavDivider,
+		SkipToContent,
+		Content
+	} from "carbon-components-svelte";
+
+    let isSideNavOpen: boolean = false;
+    
 </script>
 
-<Header />
+<Header company="Michael Lindsay" platformName="Utilities" 
+    persistentHamburgerMenu={true}
+    bind:isSideNavOpen>
+    <svelte:fragment slot="skip-to-content">
+        <SkipToContent />
+    </svelte:fragment>
+</Header>
 
-<main>
-	<slot />
-</main>
+<SideNav bind:isOpen={isSideNavOpen}>
+    <SideNavItems>
+        <SideNavLink text="Home" href="/" isSelected={$page.url.pathname == '/'}/>
+        <SideNavLink text="Event Hubs" href="/event-hubs" isSelected={$page.url.pathname == '/event-hubs'}/>
+    </SideNavItems>
+</SideNav>
 
-<!-- <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer> -->
+<slot>
 
-<style>
-	/* Google Fonts - Source Code Pro*/
-	@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1em;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		/* box-sizing: border-box; */
-	}
-
-	/* footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
-	} */
-</style>
+</slot>

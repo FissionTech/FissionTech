@@ -1,61 +1,55 @@
 <script lang="ts">
-	import BlogPost from '$lib/BlogPost.svelte';
-	import BioPicAndBlurb from '$lib/BioPicAndBlurb/BioPicAndBlurb.svelte';
-	import type PageData from '$types';
-
-	export let data: PageData;
-	$: posts = data.posts;
-
+    import "carbon-components-svelte/css/g90.css";
+    import {
+        Button,
+        Grid,
+        Row,
+        Column,
+        TextArea,
+        Header,
+        HeaderNav,
+        HeaderNavItem,
+        HeaderNavMenu,
+        SideNav,
+        SideNavItems,
+        SideNavMenu,
+        SideNavMenuItem,
+        SideNavLink,
+        SideNavDivider,
+		SkipToContent,
+        Content,
+        ClickableTile
+    } from "carbon-components-svelte";
+    
+    export const prerender = true;
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
-<BioPicAndBlurb />
-
-<section>
-	<!-- {#each posts as post (post.id)}
-		<BlogPost
-			isPreview={true}
-			title={post.attributes.Title}
-			author="Michael Lindsay"
-			datetime="2022-09-17T00:00:00"
-			body={post.attributes.Body}
-			cover=""
-			shortDescription={post.attributes.ShortDescription}
-		/>
-	{/each} -->
-</section>
+<Content>
+    <Grid>
+        <Row>
+            <Column>
+                <h1>Welcome!</h1>
+                <br />
+                <p>This is my personal website. Right now, it just has
+                    a couple pages with tools I've built, but soon I'll be adding projects,
+                    tutorials, and blog posts. Stay tuned!
+                </p>
+            </Column>
+        </Row>
+        <Row padding>
+            <Column>
+                <h2>Pages</h2>
+            </Column>
+        </Row>
+        <Row padding>
+            <Column>
+                <ClickableTile href="/event-hubs">Event Hubs Tools</ClickableTile>
+            </Column>
+            <Column></Column>
+        </Row>
+    </Grid>
+</Content>
 
 <style>
 
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
 </style>
